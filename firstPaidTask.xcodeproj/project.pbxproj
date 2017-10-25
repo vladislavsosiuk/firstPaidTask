@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		45BFAF871FA0CF44006791DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BFAF861FA0CF44006791DA /* AppDelegate.swift */; };
-		45BFAF891FA0CF44006791DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BFAF881FA0CF44006791DA /* ViewController.swift */; };
+		45BFAF891FA0CF44006791DA /* ScanMFiDevicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BFAF881FA0CF44006791DA /* ScanMFiDevicesViewController.swift */; };
 		45BFAF8C1FA0CF44006791DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45BFAF8A1FA0CF44006791DA /* Main.storyboard */; };
 		45BFAF8E1FA0CF44006791DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45BFAF8D1FA0CF44006791DA /* Assets.xcassets */; };
 		45BFAF911FA0CF44006791DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45BFAF8F1FA0CF44006791DA /* LaunchScreen.storyboard */; };
@@ -17,7 +17,7 @@
 /* Begin PBXFileReference section */
 		45BFAF831FA0CF44006791DA /* firstPaidTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = firstPaidTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45BFAF861FA0CF44006791DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		45BFAF881FA0CF44006791DA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		45BFAF881FA0CF44006791DA /* ScanMFiDevicesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanMFiDevicesViewController.swift; sourceTree = "<group>"; };
 		45BFAF8B1FA0CF44006791DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		45BFAF8D1FA0CF44006791DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		45BFAF901FA0CF44006791DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,14 +54,46 @@
 		45BFAF851FA0CF44006791DA /* firstPaidTask */ = {
 			isa = PBXGroup;
 			children = (
+				45BFAF9A1FA0CF88006791DA /* Assets */,
+				45BFAF991FA0CF76006791DA /* Storyboards */,
+				45BFAF981FA0CF65006791DA /* Controllers */,
 				45BFAF861FA0CF44006791DA /* AppDelegate.swift */,
-				45BFAF881FA0CF44006791DA /* ViewController.swift */,
-				45BFAF8A1FA0CF44006791DA /* Main.storyboard */,
-				45BFAF8D1FA0CF44006791DA /* Assets.xcassets */,
-				45BFAF8F1FA0CF44006791DA /* LaunchScreen.storyboard */,
 				45BFAF921FA0CF44006791DA /* Info.plist */,
 			);
 			path = firstPaidTask;
+			sourceTree = "<group>";
+		};
+		45BFAF981FA0CF65006791DA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				45BFAF9B1FA0D06C006791DA /* ScanMFiDevicesViewController */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		45BFAF991FA0CF76006791DA /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				45BFAF8F1FA0CF44006791DA /* LaunchScreen.storyboard */,
+				45BFAF8A1FA0CF44006791DA /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		45BFAF9A1FA0CF88006791DA /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				45BFAF8D1FA0CF44006791DA /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		45BFAF9B1FA0D06C006791DA /* ScanMFiDevicesViewController */ = {
+			isa = PBXGroup;
+			children = (
+				45BFAF881FA0CF44006791DA /* ScanMFiDevicesViewController.swift */,
+			);
+			path = ScanMFiDevicesViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,7 +168,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45BFAF891FA0CF44006791DA /* ViewController.swift in Sources */,
+				45BFAF891FA0CF44006791DA /* ScanMFiDevicesViewController.swift in Sources */,
 				45BFAF871FA0CF44006791DA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
