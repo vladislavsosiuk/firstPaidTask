@@ -35,6 +35,7 @@ class ScanMFiDevicesViewController: UIViewController {
         
         //init EABrowser
         eaBrowser = EAWiFiUnconfiguredAccessoryBrowser(delegate: self, queue:nil)
+        
     }
     
     //MARK: - IBActions
@@ -43,6 +44,7 @@ class ScanMFiDevicesViewController: UIViewController {
         
         //start scaning
         activityIndicator.startAnimating()
+        accessories = []
         eaBrowser?.startSearchingForUnconfiguredAccessories(matching: nil)
     }
     

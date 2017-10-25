@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4546C6431FA12703006A6AA1 /* ConfigureAccessoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4546C6421FA12703006A6AA1 /* ConfigureAccessoryViewController.swift */; };
 		45BFAF871FA0CF44006791DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BFAF861FA0CF44006791DA /* AppDelegate.swift */; };
 		45BFAF891FA0CF44006791DA /* ScanMFiDevicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BFAF881FA0CF44006791DA /* ScanMFiDevicesViewController.swift */; };
 		45BFAF8C1FA0CF44006791DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45BFAF8A1FA0CF44006791DA /* Main.storyboard */; };
 		45BFAF8E1FA0CF44006791DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45BFAF8D1FA0CF44006791DA /* Assets.xcassets */; };
 		45BFAF911FA0CF44006791DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45BFAF8F1FA0CF44006791DA /* LaunchScreen.storyboard */; };
+		45BFAF9E1FA11D63006791DA /* ScanMCNearbyServiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BFAF9D1FA11D63006791DA /* ScanMCNearbyServiceViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4546C6421FA12703006A6AA1 /* ConfigureAccessoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigureAccessoryViewController.swift; sourceTree = "<group>"; };
 		45BFAF831FA0CF44006791DA /* firstPaidTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = firstPaidTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45BFAF861FA0CF44006791DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		45BFAF881FA0CF44006791DA /* ScanMFiDevicesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanMFiDevicesViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,7 @@
 		45BFAF8D1FA0CF44006791DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		45BFAF901FA0CF44006791DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		45BFAF921FA0CF44006791DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45BFAF9D1FA11D63006791DA /* ScanMCNearbyServiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanMCNearbyServiceViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +39,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4546C6411FA126D6006A6AA1 /* ConfigureAccessoryController */ = {
+			isa = PBXGroup;
+			children = (
+				4546C6421FA12703006A6AA1 /* ConfigureAccessoryViewController.swift */,
+			);
+			path = ConfigureAccessoryController;
+			sourceTree = "<group>";
+		};
 		45BFAF7A1FA0CF44006791DA = {
 			isa = PBXGroup;
 			children = (
@@ -66,6 +78,8 @@
 		45BFAF981FA0CF65006791DA /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				4546C6411FA126D6006A6AA1 /* ConfigureAccessoryController */,
+				45BFAF9C1FA11D36006791DA /* ScanMCNearbyServiceController */,
 				45BFAF9B1FA0D06C006791DA /* ScanMFiDevicesViewController */,
 			);
 			path = Controllers;
@@ -94,6 +108,14 @@
 				45BFAF881FA0CF44006791DA /* ScanMFiDevicesViewController.swift */,
 			);
 			path = ScanMFiDevicesViewController;
+			sourceTree = "<group>";
+		};
+		45BFAF9C1FA11D36006791DA /* ScanMCNearbyServiceController */ = {
+			isa = PBXGroup;
+			children = (
+				45BFAF9D1FA11D63006791DA /* ScanMCNearbyServiceViewController.swift */,
+			);
+			path = ScanMCNearbyServiceController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -169,6 +191,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				45BFAF891FA0CF44006791DA /* ScanMFiDevicesViewController.swift in Sources */,
+				45BFAF9E1FA11D63006791DA /* ScanMCNearbyServiceViewController.swift in Sources */,
+				4546C6431FA12703006A6AA1 /* ConfigureAccessoryViewController.swift in Sources */,
 				45BFAF871FA0CF44006791DA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
